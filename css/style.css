@@ -90,12 +90,11 @@
 
 .hover-img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 20px red;
     filter: brightness(1.2);
 }
 
 .img-container-doom-tda {
-    width: 100%;
+    width: 90%;
     height: 340px;
     overflow: hidden;
 }
