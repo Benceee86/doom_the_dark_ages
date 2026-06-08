@@ -26,6 +26,20 @@
     margin: 0 auto;
 }
 
+.line2 {
+    width: 15%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
+}
+
+.line3 {
+    width: 40%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0px;
+}
+
 .mt {
     margin-top: 100px;
 }
@@ -41,4 +55,53 @@
 .hover-card:hover {
     transform: scale(1.03);
     box-shadow: 0 0 20px rgb(1, 0, 24);
+}
+
+.img-container {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(-50px);
+}
+
+.img-container-uac {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.img-container-uac img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(-140px);
+}
+
+.hover-img {
+    width: 300px;
+    transition: 0.3s ease;
+}
+
+.hover-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px red;
+    filter: brightness(1.2);
+}
+
+.img-container-doom-tda {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+
+.img-container-doom-tda img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
