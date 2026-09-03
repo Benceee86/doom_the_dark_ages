@@ -48,13 +48,25 @@
     margin-bottom: 100px;
 }
 
-.hover-card {
-    transition: 0.3s ease;
+.lore-layout .lore-image {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #111113;
 }
 
-.hover-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px rgb(1, 0, 24);
+.lore-layout .lore-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.lore-layout .lore-logo img {
+    object-fit: contain;
+    padding: 1rem;
 }
 
 .img-container {
@@ -81,16 +93,6 @@
     height: auto;
     display: block;
     transform: translateY(-140px);
-}
-
-.hover-img {
-    width: 300px;
-    transition: 0.3s ease;
-}
-
-.hover-img:hover {
-    transform: scale(1.1);
-    filter: brightness(1.2);
 }
 
 .img-container-doom-tda {
