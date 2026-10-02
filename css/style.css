@@ -1,29 +1,3 @@
-/* ===== Színek és betűk ===== */
-:root {
-    --bg: #0f0b0a;
-    --card: #1a1210;
-    --accent: #d32f2f;
-    --fire: #ff7a1a;
-    --bone: #e8dfd0;
-    --border: #564b36;
-}
-
-html {
-    scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--bg) !important;
-    color: var(--bone) !important;
-}
-
-h1, h2, h3, h4, .navbar-brand {
-    font-family: "Cinzel", Georgia, serif;
-    letter-spacing: .02em;
-}
-
-/* ===== Scroll animáció ===== */
 .reveal {
     opacity: 0;
     transform: translateY(50px);
@@ -35,100 +9,8 @@ h1, h2, h3, h4, .navbar-brand {
     transform: translateY(0);
 }
 
-@media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    .reveal { opacity: 1; transform: none; transition: none; }
-}
-
-/* ===== Navbar ===== */
 .bg-dark-css {
-    background-color: #140e0c;
-}
-
-.nav-link {
-    transition: 0.3s;
-}
-
-.nav-link:hover,
-.nav-link.active {
-    color: var(--fire) !important;
-}
-
-/* ===== Vonalak ===== */
-.line, .line2, .line3 {
-    height: 3px;
-    margin: 0 auto;
-    background: linear-gradient(90deg, transparent, var(--fire), transparent);
-}
-
-.line { width: 30%; }
-.line2 { width: 15%; }
-.line3 { width: 40%; }
-
-/* ===== Teljes képernyős szekciók (főoldal) ===== */
-.snap-section {
-    min-height: 100vh;
-    scroll-snap-align: start;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 6rem 1rem 3rem;
-    background:
-        linear-gradient(rgba(0, 0, 0, .55), rgba(15, 11, 10, .85)),
-        var(--bg-img, var(--bg)) center / cover no-repeat;
-    background-attachment: fixed;
-}
-
-/* a szekciók saját képe: az inline --bg változó */
-.snap-section[style*="--bg"] {
-    background:
-        linear-gradient(rgba(0, 0, 0, .55), rgba(15, 11, 10, .85)),
-        var(--bg) center / cover no-repeat;
-    background-attachment: fixed;
-}
-
-.hero-logo {
-    max-width: min(600px, 80vw);
-}
-
-.hero-sub {
-    font-size: 1.4rem;
-    letter-spacing: .12em;
-    margin-top: 1.5rem;
-}
-
-.snap-content {
-    max-width: 640px;
-    padding: 2rem;
-}
-
-.snap-content h2 {
-    font-size: clamp(2rem, 5vw, 3.2rem);
-    margin-bottom: 1rem;
-}
-
-.snap-content p {
-    font-size: 1.2rem;
-    margin: 1.2rem 0;
-}
-
-@media (max-width: 768px) {
-    .snap-section,
-    .snap-section[style*="--bg"] {
-        background-attachment: scroll;
-    }
-}
-
-/* ===== Gombok ===== */
-.btn-primary {
-    background-color: var(--accent);
-    border-color: var(--fire);
-}
-
-.btn-primary:hover {
-    background-color: var(--fire);
-    border-color: var(--fire);
+    background-color: #1c1c1e;
 }
 
 .btn-dark {
@@ -137,34 +19,35 @@ h1, h2, h3, h4, .navbar-brand {
     border: 1px solid #fff;
 }
 
-/* ===== Kártyák (a régi osztálynév is működik, de érdemes átnevezni: info-card) ===== */
-.box-idk-bro-wtf-are-u-thinking,
-.info-card {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+.line {
+    width: 30%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
 }
 
-.box-idk-bro-wtf-are-u-thinking:hover,
-.info-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--fire);
-    box-shadow: 0 8px 25px rgba(255, 122, 26, .25);
+.line2 {
+    width: 15%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
 }
 
-.container-bg {
-    background-color: var(--card);
-    padding: 20px;
-    border-radius: 30px;
+.line3 {
+    width: 40%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
 }
 
-/* ===== Segédosztályok ===== */
-.mt { margin-top: 100px; }
-.mb { margin-bottom: 100px; }
+.mt {
+    margin-top: 100px;
+}
 
-/* ===== Lore oldal képek ===== */
+.mb {
+    margin-bottom: 100px;
+}
+
 .lore-layout .lore-image {
     width: 100%;
     height: 280px;
@@ -222,4 +105,34 @@ h1, h2, h3, h4, .navbar-brand {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4444;
+}
+
+.box-idk-bro-wtf-are-u-thinking {
+    border: 1px solid #564b36;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #d32f2f;
+    border-color: #ff4444;
+}
+
+.btn-primary:hover {
+    background-color: #ff4444;
+}
+
+.container-bg {
+    background-color: #232729;
+    padding: 20px;
+    border-radius: 30px;
 }
