@@ -1,0 +1,138 @@
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bg-dark-css {
+    background-color: #1c1c1e;
+}
+
+.btn-dark {
+    background-color: #1c1c1e;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.line {
+    width: 30%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
+}
+
+.line2 {
+    width: 15%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
+}
+
+.line3 {
+    width: 40%;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 0 auto;
+}
+
+.mt {
+    margin-top: 100px;
+}
+
+.mb {
+    margin-bottom: 100px;
+}
+
+.lore-layout .lore-image {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #111113;
+}
+
+.lore-layout .lore-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.lore-layout .lore-logo img {
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.img-container {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(-50px);
+}
+
+.img-container-uac {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.img-container-uac img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateY(-140px);
+}
+
+.img-container-doom-tda {
+    width: 90%;
+    height: 340px;
+    overflow: hidden;
+}
+
+.img-container-doom-tda img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4444;
+}
+
+.box-idk-bro-wtf-are-u-thinking {
+    border: 1px solid #564b36;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #d32f2f;
+    border-color: #ff4444;
+}
+
+.btn-primary:hover {
+    background-color: #ff4444;
+}
+
+.container-bg {
+    background-color: #232729;
+    padding: 20px;
+    border-radius: 30px;
+}
