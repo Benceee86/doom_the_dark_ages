@@ -1,7 +1,6 @@
 body {
-  background: radial-gradient(circle at top, rgba(255, 20, 20, 0.18), transparent 70%),
+  background: radial-gradient(circle at top, rgba(238, 0, 0, 0.18), transparent 110%),
     #090909;
-  color: #f3f3f3;
 }
 
 .hero {
@@ -34,10 +33,10 @@ body {
   font-family: 'Metal Mania', cursive;
   color: #d6d6d6;
   text-shadow:
-    1px 0 0 #7a0000,
-    -1px 0 0 #7a0000,
-    0 1px 0 #7a0000,
-    0 -1px 0 #7a0000;
+    2px 0 0 #7a0000,
+    -2px 0 0 #7a0000,
+    0 2px 0 #7a0000,
+    0 -2px 0 #7a0000;
 }
 
 .russo-one-regular {
@@ -65,4 +64,158 @@ body {
 
     min-height: 300px;
     padding: 50px 0;
+}
+
+.color-for-bg-txt {
+  color: #838383;
+}
+
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.container-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-1-1 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/doomslayer.jpg");
+        background-position: center top;
+}
+
+.bg-1-2 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/doomslayer.jpg");
+        background-position: center center;
+}
+
+.bg-1-3 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/doomslayer.jpg");
+        background-position: center bottom;
+}
+
+.bg-2-1 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/demonicinvasion.webp");
+        background-position: center top;
+}
+
+.bg-2-2 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/demonicinvasion.webp");
+        background-position: center bottom;
+}
+
+.bg-3-1 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/sentinel_korszak.jpg");
+        background-position: center top;
+}
+
+.bg-3-2 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/uac.jpg");
+        background-position: center top;
+}
+
+.bg-3-3 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/sentinel_korszak.jpg");
+        background-position: center center;
+}
+
+.bg-3-4 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/uac.jpg");
+        background-position: center center;
+}
+
+.bg-3-5 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/sentinel_korszak.jpg");
+        background-position: center bottom;
+}
+
+.bg-3-6 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/uac.jpg");
+        background-position: center bottom;
 }
