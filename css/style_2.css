@@ -1,0 +1,68 @@
+body {
+  background: radial-gradient(circle at top, rgba(255, 20, 20, 0.18), transparent 70%),
+    #090909;
+  color: #f3f3f3;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.feature-card {
+  background: rgba(20, 20, 22, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 110, 80, 0.7);
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-font-shadow {
+  font-family: 'Metal Mania', cursive;
+  color: #d6d6d6;
+  text-shadow:
+    1px 0 0 #7a0000,
+    -1px 0 0 #7a0000,
+    0 1px 0 #7a0000,
+    0 -1px 0 #7a0000;
+}
+
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.section-bg-or-smthing-idk {
+    position: relative;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/apps.60347.14536964349136030.18eda75d-7a5e-4160-94f5-2d47359e4ef5.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 300px;
+    padding: 50px 0;
+}
